@@ -1,0 +1,11 @@
+As a student,
+I want to search for local study spots filtered by available amenities,
+So that I can find a suitable environment for my study session.
+
+As a student,
+I want to book a table by specifying the date and arrival time, the number of people attending and my student email,
+So that I can secure my place.
+
+As a venue owner,
+I want to view a list of daily incoming reservations,
+So that I can manage my venue's capacity.
