@@ -1,0 +1,12 @@
+The system shall display study locations filtered by the available amenities* selected by the user
+
+The system shall save the reservation details* specified by the customer 
+The system shall display every reservation with its details* when the user is logged-in as a venue owner
+
+The system shall send an email to a customer who made a reservation 1 hour before it starts, containing the address and the phone number of the venue 
+
+Glossario
+*Amenities: private parking spot, metro stop or bus stop within 500 meters, availability of drinks and food, free wi-fi and power outlets
+*Details: number of people attending, date and time of the reservation, email of the student who made the reservation
+
+
