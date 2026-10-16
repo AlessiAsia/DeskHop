@@ -1,0 +1,19 @@
+8 steps e 3 extensions di uno UC 
+
+Name: Book a table 
+1. The student selects the desired amenities.
+2. The system displays all venues matching the criteria.
+3. The student chooses a venue and initiates the booking process.
+4. The system displays the dates for the next two weeks. 
+5. The student selects a date. 
+6. The system requests booking details (number of attendees, arrival time, student's name and email). 
+7. The student provides the requested information.
+8. The system registers the booking.
+9. The system confirms the reservation.
+
+Extensions: 
+1a. The system cannot retrieve venue data: The system displays an error message and terminates the use case.
+2a. No venues match the filters: The system informs the user that no venues were found and prompts them to modify the criteria.
+3a. The venue owner has not activated online reservations: the system displays an "Online booking service not available for this venue" message and terminates the use case. 
+5a. There is no availability for the selected date: The system displays a "Date not available" message and prompts the user to select an alternative date.
+7a. The student omits mandatory information: The system asks the user to provide the complete information.
