@@ -1,5 +1,3 @@
-8 steps e 3 extensions di uno UC 
-
 Name: Book a table 
 1. The student selects the desired amenities.
 2. The system displays all venues matching the criteria.
