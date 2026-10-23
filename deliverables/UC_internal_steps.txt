@@ -1,17 +1,20 @@
-Name: Book a table 
-1. The student selects the desired amenities.
-2. The system displays all venues matching the criteria.
-3. The student chooses a venue and initiates the booking process.
-4. The system displays the dates for the next two weeks. 
-5. The student selects a date. 
-6. The system requests booking details (number of attendees, arrival time, student's name and email). 
-7. The student provides the requested information.
-8. The system registers the booking.
-9. The system confirms the reservation.
+Name: Book a seat 
+Actor: Student
+
+1. The student opens the venue browse page and selects the desired amenities.
+2. The system retrieves all venues matching the criteria.
+3. The system displays the venues retrieved.
+4. The student chooses a venue and starts the reservation process.
+5. The student logs in.
+6. The system displays all the available dates for the next two weeks. 
+7. The student selects a date. 
+8. The system requests reservation details. 
+9. The student provides the requested information.
+10. The system registers the reservation.
+11. The system displays a confirmation of the reservation.
 
 Extensions: 
-1a. The system cannot retrieve venue data: The system displays an error message and terminates the use case.
-2a. No venues match the filters: The system informs the user that no venues were found and prompts them to modify the criteria.
-3a. The venue owner has not activated online reservations: the system displays an "Online booking service not available for this venue" message and terminates the use case. 
-5a. There is no availability for the selected date: The system displays a "Date not available" message and prompts the user to select an alternative date.
-7a. The student omits mandatory information: The system asks the user to provide the complete information.
+2a. The system cannot retrieve venue data: The system displays an error message and terminates the use case.
+3a. No venues match the filters: The system informs the user that no venues were found and prompts them to modify the criteria.
+4a. The venue owner has not activated online reservations: The system displays an "Online booking service not available for this venue" message and terminates the use case. 
+9a. The student omits mandatory information: The system asks the user to provide the complete information.
